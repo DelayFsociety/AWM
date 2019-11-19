@@ -13,7 +13,11 @@ A = raw_input("AWM=>")
 
 if A == "1" or A == "01":
   os.system("sh install.sh")
- 
+  print command
+  print cd
+  print cd termux-ohmyzsh
+  print sh install.sh
+  
 elif A == "2" or A == "02":
   os.system("clear")
   print "Link Download"
