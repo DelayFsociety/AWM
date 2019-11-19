@@ -12,10 +12,8 @@ print
 A = raw_input("AWM=>")
 
 if A == "1" or A == "01":
-  print "github Script"
-  print "https://github.com/Cabbagec/termux-ohmyzsh"
-
-
+  os.system("sh install.sh")
+ 
 elif A == "2" or A == "02":
   os.system("clear")
   print "Link Download"
